@@ -1,6 +1,6 @@
 
-=====================================================================
-DAY-1:
+
+DAY-1 activity
 =====================================================================
 1. AWS Account creation: https://aws.amazon.com/free - free tier - 6 months - $200 credits
         * Email id - Gmail
