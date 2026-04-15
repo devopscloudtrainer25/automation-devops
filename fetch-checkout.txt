@@ -1,0 +1,12 @@
+5. git checkout: git checkout is used for switching an branch and also creating an new branch from particular branch.
+
+command: local-main> git fetch origin main    // bring changes from remote main branch to intermediatory branch "origin/main" 
+         local-main> git checkout -b release origin/main
+
+# Need to get develop branch into local git machine:
+a. local-main> git pull origin develop             // wrong - develop changes will overide main branch - never do this
+
+
+b. local-main> git fetch origin develop   // bring changes from remote develop branch to intermediatory branch "origin/develop"
+   local-main> git checkout -b develop origin/develop
+               git branch        // you are in develop branch
